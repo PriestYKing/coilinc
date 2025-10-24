@@ -29,25 +29,10 @@ Supports dark mode, collection management, flexible JSON body editor, and produc
 
 ### Setup
 
-git clone https://github.com/PriestYKing/coil-api-client.git
-cd coil-api-client
-pnpm install
+git clone https://github.com/PriestYKing/coilinc.git
+cd coilinc
+- tauri build
 
-
-### Development
-
-pnpm tauri dev
-
-or
-npm run tauri dev
-
-
-### Build Production App
-
-pnpm tauri build
-
-
-Built installers will be in `/src-tauri/target/`.
 
 ---
 
@@ -60,19 +45,6 @@ Update icon paths in `src-tauri/tauri.conf.json`.
 
 ---
 
-## Folder Structure
-
-/src
-/components
-/lib
-/app
-/src
-/icons
-tauri.conf.json
-
-
----
-
 ## .gitignore
 
 See `.gitignore` for recommended exclusions (node_modules, /target/, .env, build artifacts, OS/IDE files).
@@ -81,7 +53,8 @@ See `.gitignore` for recommended exclusions (node_modules, /target/, .env, build
 
 ## Publishing
 
-- Push to GitHub: `git push origin main`
+- Create a branch and raise PR to merge
+- Push to GitHub: `git push origin your_branch`
 - For installers/releases, upload files from `/src/target/` as GitHub Releases.
 
 ---
@@ -101,3 +74,5 @@ MIT © Coil Inc
 ## Contributing
 
 PRs, features, bug reports, and feedback are welcome!
+
+## Future Updates are in the way of the Coil Inc API.
