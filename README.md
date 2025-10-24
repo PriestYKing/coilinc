@@ -3,6 +3,8 @@
 A modern API request client built with Tauri, Next.js, and shadcn/ui.
 Supports dark mode, collection management, flexible JSON body editor, and production-ready UI.
 
+![Coil Inc](assets/snippet.png)
+
 ---
 
 ## Features

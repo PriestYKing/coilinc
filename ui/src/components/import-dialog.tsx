@@ -184,7 +184,7 @@ export function ImportDialog({ open, onOpenChange }: ImportDialogProps) {
               </label>
             </div>
             <p className="text-xs text-slate-500">
-              Import requests and collections from BlitzTest JSON format.
+              Import requests and collections from CoilInc. JSON format.
             </p>
           </TabsContent>
 

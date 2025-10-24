@@ -1,8 +1,8 @@
 [package]
-name = "blitztest"
+name = "coilinc"
 version = "0.1.0"
 description = "Lightning-fast API testing tool"
-authors = ["BlitzTest Team"]
+authors = ["CoilInc. Team"]
 license = "MIT"
 repository = ""
 edition = "2021"

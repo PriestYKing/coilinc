@@ -201,7 +201,7 @@ export const useRequestStore = create<RequestStore>()(
             tab.id === requestId ? { ...tab, collectionId: undefined } : tab,
           ),
         })),
-      // Import from JSON (BlitzTest format)
+      // Import from JSON (CoilInc. format)
       importFromJSON: (data: any) => {
         try {
           const { requests, collections } = data;
@@ -226,7 +226,7 @@ export const useRequestStore = create<RequestStore>()(
       // Import from Postman Collection
       importFromPostman: (data: any) => {
         try {
-          const convertPostmanToBlitzTest = (collection: any) => {
+          const convertPostmanToCoilInc = (collection: any) => {
             const requests: any[] = [];
             const collectionId = Date.now().toString();
 
@@ -315,7 +315,7 @@ export const useRequestStore = create<RequestStore>()(
             };
           };
 
-          const { requests, collection } = convertPostmanToBlitzTest(data);
+          const { requests, collection } = convertPostmanToCoilInc(data);
 
           set((state) => ({
             requestTabs: [...state.requestTabs, ...requests],
@@ -561,7 +561,7 @@ export const useRequestStore = create<RequestStore>()(
               return;
             }
 
-            // Check if it's BlitzTest format
+            // Check if it's CoilInc format
             if (data.requests || data.collections) {
               get().importFromJSON(data);
               return;

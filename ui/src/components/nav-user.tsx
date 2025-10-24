@@ -209,7 +209,7 @@ export function NavUser({
                 <DropdownMenuItem
                   onClick={() =>
                     window.open(
-                      "https://github.com/yourusername/blitztest",
+                      "https://github.com/PriestYKing/coilinc",
                       "_blank",
                     )
                   }
