@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# Tauri artifacts
+/src-tauri/target/
+/src-tauri/icons/*.icns
+/src-tauri/icons/*.ico
+
+# Build output
+dist/
+build/
+
+/.env
+.env.local
+.env.*.local
+
+# OS/IDE cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Image/model caches
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore coverage directories
+coverage/
