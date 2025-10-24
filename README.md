@@ -38,10 +38,10 @@ cd coilinc
 
 ## Icons
 
-Place PNG icons of these sizes in `src-tauri/icons/`:
+Place PNG icons of these sizes in `src/icons/`:
 
 - 32x32, 128x128, 256x256, 512x512, 1024x1024, 2048x2048 (true PNGs, not renamed JPGs)
-Update icon paths in `src-tauri/tauri.conf.json`.
+Update icon paths in `src/tauri.conf.json`.
 
 ---
 
