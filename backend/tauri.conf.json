@@ -1,7 +1,7 @@
 {
-  "productName": "BlitzTest",
+  "productName": "CoilInc.",
   "version": "0.1.0",
-  "identifier": "com.blitztest",
+  "identifier": "com.coilinc",
   "build": {
     "frontendDist": "../ui/dist",
     "devUrl": "http://localhost:5173",
