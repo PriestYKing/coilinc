@@ -24,6 +24,7 @@ Thumbs.db
 *.log
 
 # Image/model caches
+
 *.png
 *.jpg
 *.jpeg
